@@ -1,0 +1,17 @@
+.FlexWrapperHorizontal{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.FlexWrapperVertical{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.FlexWrapperCenter{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}

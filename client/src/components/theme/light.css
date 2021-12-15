@@ -1,0 +1,27 @@
+.Block, .Button, .Notification, .Timer, .TaskCounter{
+    background: #FFFFFF;
+}
+
+.Button:hover{
+    background-color: #F0F0F0;
+}
+
+.Button:active{
+    background-color: #C0C0C0;
+    color: #FFFFFF;
+}
+
+.Success{
+    color: #8BC34A;
+}
+
+.Error{
+    color: #F44336;
+}
+
+input{
+    background-color: #F0F0F0;
+}
+.TextInput{
+    border: none;
+}

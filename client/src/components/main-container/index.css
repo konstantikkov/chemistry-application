@@ -1,0 +1,27 @@
+.MainContainer{
+    max-width: 1000px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MainContainer-enter {
+    transform: translateX(-1000px);
+    opacity: 0;
+}
+.MainContainer-enter-active {
+    opacity: 1;
+    transform: translateX(0px);
+    transition: opacity 1000ms, transform 1000ms;
+}
+
+.MainContainer-exit {
+    opacity: 1;
+}
+.MainContainer-exit-active {
+    opacity: 0;
+    transform: translateX(1000px);
+    transition: opacity 1000ms, transform 1000ms;
+}

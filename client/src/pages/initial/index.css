@@ -1,0 +1,77 @@
+.InitialScreen{
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: xx-large;
+}
+
+.CodeBack{
+    display: flex;
+    align-items: center;
+    background-color: #2B2B2B;
+    width: 70%;
+    padding: 30px;
+}
+
+.KurisuGroup{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width:80%;
+    min-width: 300px;
+    max-width: 650px;
+    animation: goToTop 5s forwards;
+}
+
+@keyframes goToTop {
+    0%{
+        transform: translateY(1000px);
+        opacity: 0;
+    }
+    25%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    75%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-1000px);
+        opacity: 0;
+    }
+}
+
+
+.Kurisu{
+    width: 10%;
+    margin-right: 5px;
+    background-image: url("../../assets/kurisu_smile.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.BlinkingCursor{
+    user-select: none;
+    animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink
+{
+    to {
+        visibility: hidden
+    }
+}
+@media (max-width: 1000px) {
+    .InitialScreen{
+        font-size: 14px;
+    }
+    .Kurisu{
+        width: 20%;
+        margin-right: 5px;
+    }
+}

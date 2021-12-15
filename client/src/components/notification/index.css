@@ -1,0 +1,44 @@
+.Notification{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0px 4px 25px 6px rgba(0, 0, 0, 0.08);
+    padding: 15px;
+    display: flex;
+    border-radius: 29px;
+}
+
+.NotificationText{
+    width: 50%;
+}
+.NotificationQuestion{
+    width: 50%;
+    background-image: url("../../assets/kurisu_sad.svg");
+    background-size: cover;
+}
+.NotificationInfo{
+    width: 50%;
+    background-image: url("../../assets/kurisu_smile.svg");
+    background-size: cover;
+}
+
+.Notification-enter {
+    transform: translateY(100px);
+    opacity: 0;
+}
+.Notification-enter-active {
+    transform: translateY(0);
+    opacity: 1;
+    transition: transform 500ms, opacity 500ms;
+}
+
+.Notification-exit-active {
+    transform: translateY(200px);
+    opacity: 0;
+    transition: transform 500ms, opacity 500ms;
+}
+.Notification-exit-done {
+    opacity: 0;
+}

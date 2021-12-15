@@ -1,0 +1,20 @@
+.Intro{
+    background-image: url('../../assets/school_intro.png');
+}
+.Work{
+    background-image: url('../../assets/school_workplace.png');
+}
+.Background{
+    height: 100%;
+    background-size: cover;
+}
+@media(max-width: 1000px){
+    .Background{
+        height: max-content !important;
+    }
+}
+@media (max-height: 770px) {
+    .Background{
+        height: max-content !important;
+    }
+}

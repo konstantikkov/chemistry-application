@@ -1,0 +1,8 @@
+.Radio{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+    cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.TimeInput{
+    text-align: center;
+    border: none;
+    width: 50px;
+    padding: 10px 15px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+input[type=time]::-webkit-calendar-picker-indicator{
+    display: none;
+}

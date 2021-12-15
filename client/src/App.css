@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat_Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Montserrat;
+    src:url(./assets/fonts/Montserrat_Regular.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat_Light.ttf);
+    font-weight: initial;
+}
+
+.lg{
+    font-size: 150%;
+}
+.md{
+    font-size: 100%;
+}
+.sm{
+    font-size: 70%;
+}
+
+.giga{
+    font-weight: bold;
+    font-size: 500%;
+}
+
+#root{
+    height: 100%;
+}
+.App{
+    height: 100%;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100%;
+    font-family: Montserrat;
+}
+
+h1{
+    margin: 0;
+}
+
+@media (max-width: 1000px) {
+    body{
+        overflow-y: auto;
+    }
+    .GridWrapper{
+        height: 100%;
+    }
+}
+@media (max-height: 770px) {
+    body{
+        overflow-y: auto;
+    }
+    .Background{
+        min-height: 100vh;
+    }
+    .GridWrapper{
+        height: 100%;
+    }
+}

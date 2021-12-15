@@ -1,0 +1,27 @@
+.RadioDecorator{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+
+.RadioDecoratorOuter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    border: 1px gray solid;
+    margin-right: 5px;
+}
+
+.RadioDecoratorSelected{
+    background-color: #8bc34a;
+    transition: background-color 0.5s;
+}
+
+.RadioDecoratorNonSelected{
+    background-color: transparent;
+    transition: background-color 0.5s;
+}

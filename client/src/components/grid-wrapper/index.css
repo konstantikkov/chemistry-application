@@ -1,0 +1,12 @@
+.GridWrapper{
+    width: 100%;
+    display: grid;
+}
+@media (max-width: 1000px) {
+    .GridWrapper{
+        height: 100% !important;
+        display: flex !important;
+        flex-direction: column;
+        padding-bottom: 30px !important;
+    }
+}

@@ -1,0 +1,19 @@
+.Task{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TaskItem{
+    margin: 0 5px;
+}
+
+@media (max-width: 1000px) {
+    .Task{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
